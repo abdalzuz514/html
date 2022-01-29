@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+
+}
+img{
+    margin: 0 auto;
+    display: flex;
+}
+html{
+    font-size: 16px;
+}
+.a-main {
+    float: right;
+    margin-top: 20px;
+}
+.a-main li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+.a-main li a  {
+    text-decoration: none ;
+    font-size: 25px;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    color: rgb(5, 5, 5);
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.logo img {
+    margin-top: 20px;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+.a-main li a.active{
+    border: 21px solid #fff;
+
+}
+
+.main-section{
+    width: 100;
+    margin: 25px 25px 25px 25px ;
+    max-width: 1366px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vh;
+}
+h1 span{
+    color: rgb(144, 178, 241);
+}
+.btn{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 20px;
+    border-radius: 5px;
+    outline: none;
+}
+.btn a {
+    color: rgb(144, 178, 241);
+    font-size: 16px;
+    text-decoration: none;
+}
+.btn :hover{
+    background :rgb(132, 161, 214);
+}
+.msg{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between ;
+    flex: auto;
+}
